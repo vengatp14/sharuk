@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="style.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+        <!-- <link rel="stylesheet" href="stylee.css"> -->
+        <title>My Portfolio Website </title>
+  
+    </head>
+    <body onload="myFunction()" style="margin:0;">
+
+        <div id="loader1"></div>
+        
+        <div style="display:none;" id="myDiv1" class="animate-bottom1">
+  
+  
+
+
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">sharuk suraj</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="#qualif" class="nav__link">Education</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#project" class="nav__link">Projects</a></li>
+                        <li class="nav__item"><a href="#achieve" class="nav__link">Achievements</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Sharuk</span></h1>
+                    <h2 class="about__subtitle">Dream Big, Believe Bold!</h2>
+                    <a href="#" class="button">Resume</a>
+                </div>
+            
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/sharuk-suraj-07034719b" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://www.facebook.com/sharuk.monster" class="home__social-icon"><i class='bx bxl-facebook' ></i></i></a>
+                    <a href="https://instagram.com/insociant_390?igshid=1gh3n788wwu0o" class="home__social-icon"><i class='bx bxl-instagram' ></i></i></a>
+                    <a href="#" class="home__social-icon"><i class='bx bxl-github' ></i></i></a>
+                </div>
+
+                <div class="home__img">    
+                    <!-- <img style="height: 150px; width: 200px;" src="sharuk.jpg" alt="" > -->
+                </div>
+            </section>
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About Myself</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="IMG_7663.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">Hey , I'am Sharuk suraj.</h2>
+                        <h4>web Designer & Developer</h4>
+                        <p class="about__text">I'm M.sharuk suraj (B.Tech in information Technolgy)<br>
+                        I am a front end developer <br>
+                    I have experience in html5 ,css3 ,c++ ,sql ,JavaScript <br>
+                I am actively seeking opportunity in corporate industry <br>
+            The web as i invisaged it, we have not seen it yet  </p>           
+                    </div>                                   
+                </div>
+            </section>
+            
+             <!--===== Work =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Work Experience</h2>
+
+                <div class="work__container bd-grid">
+                   <div class="w1">
+                        <div>
+                            <a href="" class="work__icon"></a><i class="fa fa-briefcase" aria-hidden="true"></i></a>
+                        </div>
+                        <div>
+                       
+                            <h2 class="work__subtitle">My creative skills & experience</h2>
+                            <h2 class="work__subtitle">I am a freelancer</h2>
+                            <p class="work__text">I have started the coding joureny @ end of 2020</p>
+                            <p class="work__text">i have skill set in html5 ,css3 ,c++ ,sql ,JavaScript</p>
+                            <p class="work__text">To implement my Knowledge i have build some animation in this website</p>
+                            <a href="#" class="button1">Certificate</a>
+                            <!-- <a href="https://drive.google.com/file/d/1z2X5TWFjSfBpkkD3Trv9fyTU1wdygjk_/view?usp=drivesdk" class="button1">Letter of Recommendation</a> -->
+                        </div>
+                   </div>
+                   <!-- <div class="w2">
+                        <div>
+                            <a href="" class="work__icon"></a><i class="fa fa-briefcase" aria-hidden="true"></i></a>
+                        </div>
+                        <div>
+                            <h2 class="work__subtitle">Frontend Development</h2>
+                            <h2 class="work__subtitle">Cologne Prime</h2>
+                            <p class="work__text">Aug, 2020 - 1 Month Internship</p>
+                            <p class="work__text">Created an Online Payment System for their Website in which a user will fill a 
+                            personal detail form and then they will be given three modes of payment like credit/debit card, phone pe,
+                            and cash on delivery. I made this System using Tech Stack - HTML5 and CSS3. Structure of the Project was 
+                            created using HTML5 and designing was done using CSS3. Project is attached below.</p>
+                            <a href="https://drive.google.com/file/d/1LJ24mtSsRcnqXc4FVC46ZS-SNLxuegSD/view?usp=drivesdk" class="button1">Certificate</a>
+                            <a href="https://anushka-srivastava22.github.io/Payment-System-Company-Intern-/" class="button1">Project</a>
+                            
+                        </div>
+                       
+                   </div> -->
+                </div>
+            </section>
+
+             <!--===== EDUCATION =====-->
+            <section class="qualif section " id="qualif">
+                <h2 class="section-title">Education</h2>
+
+                <div class="qualif__container bd-grid">
+                    <div class="q1">
+                        <div >
+                            <a href="" class="qualif__icon"><i class="fa fa-graduation-cap" aria-hidden="true" ></i></a>
+                        </div>
+                        <div>
+                            <h2 class="qualif__subtitle">sethu instute of techology </h2>
+                            <p class="qualif__text">madurai <br> india</p>
+                            <br>
+                            <p class="qualif__text">Btech , Computer Science & Engineering</p>
+                            <p class="qualif__text">Secured 8.34 CGPA</p>
+                        </div>
+                    </div>
+                    
+                    <div class="q2">
+                        <div class="img">
+                            <a href="" class="qualif__icon"><i class="fa fa-graduation-cap" aria-hidden="true" id="img"></i></a>
+                        </div>
+                        <div>
+                            <h2 class="qualif__subtitle">velammal matric hr sec school</h2>
+                            <p class="qualif__text">12th std </p>
+                            <br>
+                            <p class="qualif__text"> Computer science</p>
+                            <p class="qualif__text">Secured 64%</p>
+                        </div>
+                    </div>
+
+                    <div class="q3">
+                        <div class="img">
+                            <a href="" class="qualif__icon"><i class="fa fa-graduation-cap" aria-hidden="true" id="img"></i></a>
+                        </div>
+                        <div>
+                            <h2 class="qualif__subtitle">velammal matric hr sec  school</h2>
+                             <p class="qualif__text"> 10th std</p> 
+                            <br>
+                            <p class="qualif__text"> Computer Science</p>
+                            <p class="qualif__text">Secured 79%</p>
+                        </div>
+                    </div>
+                    
+                    <div class="q4">
+                        <div class="img">
+                            <a href="" class="qualif__icon"><i class="fa fa-graduation-cap" aria-hidden="true" id="img"></i></a>
+                        </div>
+                        <div>
+                            <h2 class="qualif__subtitle">Courses</h2>
+                            <div class="course_container1">
+                                <div >
+                                    <a href="#" class="button2">c++ Programming</a>
+                                </div>
+                                <div>
+                                    <a href="#" class="button2">css3 style</a>
+                                </div>
+                                <div>
+                                    <a href="#" class="button2">JavaScript Programming</a>
+                                </div>
+                                <div>
+                                    <a href="#" class="button2">sql Development</a>
+                                </div>
+                                <div>
+                                    <a href="#" class="button2">UI and UX Design</a>
+                                </div>
+                               
+                            </div>
+                            <!-- <div class="course_container2">
+                                <div>
+                                    <a href="https://drive.google.com/file/d/1yWrf9JxHLGq9ZUshU1XoRbvdSlYyYeZz/view?usp=drivesdk" class="button2">App Development</a>
+                                </div>
+                                <div>
+                                    <a href="https://drive.google.com/file/d/1yia5nwh-r5CCkxu1-SFhcF-3Wc4UN7gU/view?usp=drivesdk" class="button2">Ethical Hacking</a>
+                                </div>
+                                <div>
+                                    <a href="https://drive.google.com/file/d/1yfu76GCXK4vMmsg6mbvClarTjr3w-aXk/view?usp=drivesdk" class="button2">Cpp Programming</a>
+                                </div>
+                                <div>
+                                    <a href="#" class="button2">Python Programming</a>
+                                </div>
+                            </div> -->
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+             <!--===== SKILLS =====-->
+            <section class="skills__container bd-grid" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skill1">          
+                    <div class="skill_cont">
+                        <img src="s1.jpg" alt="s1"  class="skills__img" width="100px" height="100px">
+                        <h2 class="skills__subtitle">Java</h2>
+                    </div>
+                    <div class="skill_cont">
+                        <img src="s2.jpg" alt="s2"  class="skills__img" width="74px" height="74px">
+                        <h2 class="skills__subtitle">HTML5</h2>
+                    </div>
+                    <div class="skill_cont">
+                        <img src="s3.jpg" alt="s3"  class="skills__img" width="74px" height="74px">
+                        <h2 class="skills__subtitle">CSS3</h2>
+                    </div>
+                    
+                </div>
+
+
+                <div class="skill1">          
+                    <div class="skill_cont">
+                        <img src="s4.jpg" alt="s4"  class="skills__img" width="74px" height="74px">
+                        <h2 class="skills__subtitle">JavaScript</h2>
+                    </div>  
+                    <div class="skill_cont">
+                        <img src="s10.jpeg" alt="s8"  class="skills__img" width="100px" height="100px">
+                        <h2 class="skills__subtitle">Bootstrap4</h2>
+                    </div>
+                    <div class="skill_cont"> 
+                        <img src="s11.jpg" alt="s7"  class="skills__img" width="100px" height="100px">
+                        <h2 class="skills__subtitle">Git & Github</h2>
+                    </div>
+                    
+                </div>
+
+                <!-- <div class="skill2"> 
+                    <div class="skill_cont">
+                        <img src="s4.jpg" alt="s4"  class="skills__img" width="74px" height="74px">
+                        <h2 class="skills__subtitle">JavaScript</h2>
+                    </div>          -->
+                    <!-- <div class="skill_cont">
+                        <img src="s9.jpg" alt="s5"  class="skills__img" width="100px" height="100px">
+                        <h2 class="skills__subtitle">Data Structure & Algorithm</h2>
+                    </div> -->
+                    <!-- <div class="skill_cont">
+                        <img src="s6.png" alt="s6"  class="skills__img" width="74px" height="74px">
+                        <h2 class="skills__subtitle">C </h2>
+                    </div> -->
+                   
+                <!-- </div>
+                <div class="skill3">
+                    <div class="skill_cont"> 
+                        <img src="s11.jpg" alt="s7"  class="skills__img" width="100px" height="100px">
+                        <h2 class="skills__subtitle">Git & Github</h2>
+                    </div>
+                  
+                       
+                    <div class="skill_cont">
+                        <img src="s10.jpeg" alt="s8"  class="skills__img" width="100px" height="100px">
+                        <h2 class="skills__subtitle">Bootstrap4</h2>
+                    </div>
+                </div> -->
+                <h3 class="section-title">Familiar With</h3>
+                <div class="skill4">
+                    <div class="skill_cont">
+                        <img src="s2.jpg" alt="s2"  class="skills__img" width="74px" height="74px">
+                        <h2 class="skills__subtitle">HTML5</h2>
+                    </div> 
+                    <div class="skill_cont">
+                        <img src="s3.jpg" alt="s3"  class="skills__img" width="74px" height="74px">
+                        <h2 class="skills__subtitle">CSS3</h2>
+                    </div>         
+                    <!-- <div class="skill_cont">
+                        <img src="s8.jpg" alt="s9"  class="skills__img" width="100px" height="100px">
+                        <h2 class="skills__subtitle">React js</h2>
+                    </div>
+                    <div class="skill_cont">
+                        <img src="s5.jpg" alt="s10"  class="skills__img" width="100px" height="100px">
+                        <h2 class="skills__subtitle">Python</h2>
+                    </div> -->
+                    <!-- <div class="skill_cont">
+                        <img src="s7.png" alt="s11"  class="skills__img" width="80px" height="80px">
+                        <h2 class="skills__subtitle">Cpp </h2>
+                    </div> -->
+                    <div class="skill_cont">
+                        <img src="s4.jpg" alt="s4"  class="skills__img" width="74px" height="74px">
+                        <h2 class="skills__subtitle">JavaScript</h2>
+                    </div>  
+                    
+                </div>
+            </section>
+             <!--===== PROJECTS =====-->
+            <section class="project__section bd-grid " id="project">
+                <h2 class="section-title">Projects</h2>
+
+                <div class="pro__container ">
+                    <div class="p1">
+                        <div>
+                            <img src="/Screenshot_2021-03-16 My Portfolio Website(6).png" alt="p1" class="pro_img">
+                        </div>
+                        <div class="ip1">
+                            <h2 class="pro__subtitle">Portfolio Project</h2>
+                            <p class="pro__text">
+                                Created a Responsive Portfolio Website using HTML5, CSS3, Bootstrap4 and JavaScript which shows
+                                my Education, Work Experience e.t.c.
+                            </p>
+                            <a href="#" class="button3">See Project</a>
+                        </div>
+                    </div>
+                    <div class="p2">
+                        <!-- <div>
+                            <img src="p2.jpg" alt="p1" class="pro_img" >
+                        </div> -->
+                        <!-- <div class="ip1">
+                            <h2 class="pro__subtitle">Restaurant Management Project</h2>
+                            <p class="pro__text">
+                                Created a Responsive Restaurant Management Website using HTML5, CSS3 and JavaScript in which a user 
+                                can order their food online from a restaurant.
+                            </p>
+                            <a href="https://anushka-srivastava22.github.io/Restauraunt-Management-Project/" class="button3">See Project</a>
+                        </div> -->
+                    </div>
+                </div>
+            </section>
+             <!--===== ACHIEVEMENTS =====-->
+            <section class="achv__section bd-grid " id="achieve">
+                <h2 class="section-title">Achievements</h2>
+
+                <div class="ach__container bd-grid">
+                    <div class="achieve_cont1">
+                        <div class="achieve1">
+                            <h3 class="achieve__title">MOBILE Development</h3>
+                            <a href="https://drive.google.com/file/d/1mf-Nrnuuo2gxeZj45LfwQDzr1bke_uTX/view?usp=sharing" class="button4">See Profile</a>
+                        </div>
+                        <div class="achieve1">
+                            <h3 class="achieve__title">ETHICAL HACKING <BR></BR></h3>
+                            <a href="https://drive.google.com/file/d/1mpFuHFTSn8HCjKBgJbKTKQbLQa3G647v/view?usp=sharing" class="button3">See Profile</a>
+                        </div>
+                        <div class="achieve1">
+                            <h3 class="achieve__title">BIG DATA </h3>
+                            <a href="https://drive.google.com/file/d/1muak5rYl_tElVwZkNWVexN8z4NnNPFm0/view?usp=sharing" class="button4">See Profile</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+             <!--===== CONTACT =====-->
+             <section class="contact section" id="contact">
+                <h2 class="section-title">Contact me</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="" class="contact__form">
+                        <input type="text" placeholder="Name" class="contact__input">
+                        <input type="mail" placeholder="Email" class="contact__input">
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <input type="button" value="submit" class="contact__button button">
+                    </form>
+                </div>
+            </section>
+        </main>
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">sharuk suraj</p>
+            <p class="footer__text">Call me on : +91 96005 61132<br></p>
+            <div class="footer__social">
+               
+                <a href="https://www.linkedin.com/in/sharuk-suraj-07034719b" class="footer__icon"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://www.facebook.com/sharuk.monster" class="footer__icon"><i class='bx bxl-facebook' ></i></i></a>
+                <a href="https://instagram.com/insociant_390?igshid=1gh3n788wwu0o" class="footer__icon"><i class='bx bxl-instagram' ></i></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-github' ></i></i></a>
+
+            </div>
+            <p>&#169; 2020 copyright all right reserved</p>
+        </footer>
+
+
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script>
+            var myVar;
+            
+            function myFunction() {
+              myVar = setTimeout(showPage, 3000);
+            }
+            
+            function showPage() {
+              document.getElementById("loader1").style.display = "none";
+              document.getElementById("myDiv1").style.display = "block";
+            }
+            </script>
+
+        <!--===== MAIN JS =====-->
+        <script src="main.js"></script>
+    </body>
+</html>
