@@ -1,5 +1,5 @@
 
-/* Center the loader 
+ Center the loader 
 const showMenu = (toggleId, navId) =>{
     const toggle = document.getElementById(toggleId),
     nav = document.getElementById(navId)
@@ -11,9 +11,9 @@ const showMenu = (toggleId, navId) =>{
     }
 }
 showMenu('nav-toggle','nav-menu')
-*/
+
 /*===== ACTIVE AND REMOVE MENU =====*/
-//const navLink = document.querySelectorAll('.nav__link');   
+const navLink = document.querySelectorAll('.nav__link');   
 
 function linkAction(){
   /*Active link*/
@@ -27,12 +27,12 @@ function linkAction(){
 /navLink.forEach(n => n.addEventListener('click', linkAction));
 
 /*===== SCROLL REVEAL ANIMATION =====*/
-//const sr = ScrollReveal({
-  //  origin: 'top',
-    //distance: '80px',
-    //duration: 2000,
-    //reset: true
-//});
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '80px',
+    duration: 200,
+    reset: true
+});
 
 /*SCROLL HOME*/
 sr.reveal('.home__title',{}); 
