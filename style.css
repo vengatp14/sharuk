@@ -154,7 +154,7 @@ img{
 }
 .nav__link{
   position: relative;
-  color: rgb(10, 6, 6);
+color: white;
 }
 .nav__link:hover{
   position: relative;
